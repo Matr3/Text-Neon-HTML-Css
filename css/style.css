@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+}
+
+.neon{
+    font-size: 70px;
+    font-weight: bold;
+    color: transparent;
+    text-stroke: 1px #fff;
+    -webkit-text-stroke: 1px #fff;
+    animation: neonanimation 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes neonanimation {
+    to{
+        color: #fff;
+        text-shadow: 0 0 5px #fff,
+                    0 0 10px #fff,
+                    0 0 15px #fff,
+                    0 0 20px #ff00de,
+                    0 0 35px #ff00de,
+                    0 0 40px #ff00de,
+                    0 0 50px #ff00de,
+                    0 0 75px #ff00de;
+    }
+}
